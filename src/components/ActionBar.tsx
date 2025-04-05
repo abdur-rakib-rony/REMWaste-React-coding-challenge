@@ -18,7 +18,7 @@ export const ActionBar: React.FC<ActionBarProps> = ({
         </button>
         <button
           onClick={onContinue}
-          className="py-2 px-4 bg-[#0037C1] hover:bg-[#0040DB] text-white font-medium rounded-md shadow-md transition-colors w-1/2 md:w-auto flex items-center justify-center"
+          className="py-2 px-4 bg-[#0037C1] hover:bg-[#0040DB] text-white font-medium cursor-pointer rounded-md shadow-md transition-colors w-1/2 md:w-auto flex items-center justify-center"
         >
           Continue <ArrowRight size={16} className="ml-2" />
         </button>
