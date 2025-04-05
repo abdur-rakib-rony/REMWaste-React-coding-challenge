@@ -1,0 +1,13 @@
+:root {
+  --primary-blue: #0037C1;
+  --secondary-blue: #2563eb;
+  --dark-bg: #1C1C1C;
+  --border-color: #2A2A2A;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
